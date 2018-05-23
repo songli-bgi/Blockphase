@@ -1,1 +1,4 @@
-# one
+# Test
+"-i" parameter will indicate the input file and "-o" will indicate the prefix of output.
+
+../blockphase -i demoGL.gz -o test.out
