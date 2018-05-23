@@ -5,6 +5,7 @@ Blockphase is a software for accurate genotype calling and haplotype phasing. Ou
 Blockphase requires the Boost C++ library, please add them to your enviroment path:
 
 export PATH=/path/to/boost/include:$PATH
+
 export LD_LIBRARY_PATH=/path/to/boost/lib:$LD_LIBRARY_PATH
 
 git clone https://github.com/songli-bgi/Blockphase.git
@@ -19,8 +20,11 @@ make
 
 # Usage
 You can get the help information by:
+
 ./blockphase -h/--help 
 
 examples:
+
 ./blockphase -i $infile -o $outfile 
+
 ./blockphase -i $infile -o $outfile -b 5 -c 15 -s 20
